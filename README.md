@@ -72,20 +72,14 @@ I try to secure systems a bit in the halestrom.
 ## 🌍 Connect With Me
 
 <div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartik-pareek-783b5123a/)  
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kartikpareek614@gmail.com)
 
 </div>
 
+
 ---
-
-## 👣 Visitor Count
-
-<div align="center">
-
-![Visitor Count](https://visitcount.itsvg.in/api?id=KARTIK614&icon=5&color=6)
-
-</div>
 
 
 <!--
