@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4200&color=00E5FF&center=true&vCenter=true&width=800&lines=Industrial+AI+%7C+Edge+Computing+%7C+NVIDIA+Jetson+Orin+%7C+DGX+Spark;Full-Stack+%7C+Next.js+%7C+Rust+%7C+Go+%7C+FastAPI+%7C+Python;Computer+Vision+%7C+YOLO11+%7C+TensorRT+%7C+ONNX;Cybersecurity+%7C+SIEM+%7C+LLM+Fine-Tuning+%7C+CTI+Pipelines;Building+Secure%2C+Intelligent+Factories+End-to-End" />
+<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4200&color=00E5FF&center=true&vCenter=true&width=800&lines=Industrial+AI+%7C+Edge+Computing+%7C+NVIDIA+Jetson+Orin+%7C+DGX+Spark;Full-Stack+%7C+Next.js+%7C+FastAPI+%7C+Python;Computer+Vision+%7C+YOLO11+%7C+TensorRT+%7C+ONNX;Cybersecurity+%7C+SIEM+%7C+LLM+Fine-Tuning+%7C+CTI+Pipelines;Building+Secure%2C+Intelligent+Factories+End-to-End" />
 
 </div>
 
@@ -10,10 +10,9 @@
 
 ## Who I Am
 
-I build at the intersection of **edge AI**, **industrial computer vision**, **cybersecurity**, and **full-stack systems**. Currently deploying production-grade AI on NVIDIA Jetson AGX Orin and DGX Spark — from factory-floor defect detection and PLC-integrated automation to security LLMs fine-tuned on threat intelligence. I also harden mobile apps, build encrypted communication tools, and run molecular dynamics simulations on the side.
+I build at the intersection of **edge AI**, **industrial computer vision**, **cybersecurity**, and **full-stack systems**. Currently deploying production-grade AI on NVIDIA Jetson AGX Orin and DGX Spark — from factory-floor defect detection and PLC-integrated automation to security LLMs fine-tuned on threat intelligence. I also harden mobile apps and build encrypted communication tools.
 
 - **OXmaint Edge Portal** — Production industrial AI on Jetson Orin: 12 YOLO models, PLC (Allen-Bradley, Arduino Opta), ROS2 robot simulation
-- **OXmaint CMMS Platform** — Enterprise maintenance management on DGX Spark: Rust (Axum/Tokio) backend, Go services, SAP PM integration, Synapse RAG agent
 - **WAZUHLLM** — Fine-tuned security LLM with Wazuh SIEM + CTI pipeline (NVD/KEV/ThreatFox) + RAG vault for SOC automation
 - **Industrial CV models** on NVIDIA TensorRT — conveyor defects, spill, dust, PPE, galvanizing, thermal fault detection
 - **Multi-tenant CCTV AI** — Real-time surveillance with automated work order creation and escalation pipelines
@@ -28,18 +27,14 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 | Project | Domain | Stack | What It Does |
 |---|---|---|---|
 | **OXmaint Edge Portal** | Industrial AI / Edge | Next.js 15, FastAPI, YOLO11, Jetson Orin, PLC | Production AI — 5 microservices, 12 CV models, real-time factory monitoring |
-| **OXmaint CMMS (Rust)** | Enterprise / Backend | Rust, Axum, Tokio, SQLx, MySQL, Azure | High-performance CMMS rewrite — assets, work orders, PM schedules, inspections |
-| **OXmaint AI Portal** | Full-Stack / AI | Next.js 15, React 19, ShadCN, Azure Blob | Multi-tenant maintenance portal with Synapse RAG agent, SAP integration, n8n workflows |
+| **OXmaint AI Portal** | Full-Stack / AI | Next.js 15, React 19, ShadCN, Azure Blob | Multi-tenant maintenance portal with Synapse RAG agent, n8n workflows |
 | **WAZUHLLM** | Security / AI | Python, Wazuh, Ollama, Qwen, LangGraph, ChromaDB | SIEM + fine-tuned LLM for SOC automation — CTI pipeline ingesting NVD/KEV/ThreatFox into RAG |
 | **Industrial Vision Suite** | CV / Edge AI | YOLO11x, TensorRT, ONNX, CUDA 12.6 | 12+ model variants — dust, spill, conveyor, galvanizing, thermal fault, intrusion, PPE |
-| **SAP ↔ OXmaint Sync** | Enterprise Integration | Python, FastAPI, ChromaDB, SAP PM BAPI | Two-way SAP PM sync agent with mock server, risk scoring, graph refresh pipeline |
 | **OXmaint CCTV Surveillance** | Multi-Tenant AI | Next.js 15, Clerk, Azure Blob, TensorRT | AI-powered CCTV with hazard detection, automated work orders, escalation |
 | **Thermal Fault Detection** | CV / Industrial | YOLOv8m, Roboflow, PyTorch | Electrical thermal anomaly detection & classification with custom inference engine |
 | **BlueScope Video Analysis** | CV / Edge AI | ffmpeg, Ollama, Gemma 4, DGX Spark | Frame-by-frame industrial video captioning → temporal fusion → Markdown safety reports |
 | **SECONDBRAIN** | AI Agents / RAG | Python, ChromaDB, Mem0, Obsidian, Claude MCP | Multi-agent dev workflow — capture, research, synthesis, review agents |
-| **FEP Drug Discovery** | Molecular Dynamics | OpenMM, CUDA, Python | Absolute binding free-energy simulation (PfLDH, 41 λ-windows, ~160 GPU-hrs) |
 | **V2T Tools** | Full-Stack / Voice | Next.js 16, MongoDB, WebRTC, Web Speech API | Voice dictation, AI search, markdown paste, P2P file transfer |
-| **OXmaint Spanish Portal** | i18n / Full-Stack | Go, Next.js, MySQL | oxmaint.es localization with multi-location filtering |
 | **E2E Encrypted Chat** | Security / PWA | React 19, TypeScript, IndexedDB, Web Crypto | QR-key-exchange encrypted messaging + calling, offline-first |
 | **ROS2 Robot Simulation** | Robotics | ROS2 Humble, MoveIt2, Isaac Sim, Fanuc CR35-iA | Multi-robot simulation (Fanuc, ABB, UR, Kuka) with custom motion planning |
 | **ubuntu-setup** | DevOps / Linux | Bash, systemd, TouchEgg, Docker | One-command fresh Ubuntu → full workstation with Windows-style gestures |
@@ -53,8 +48,6 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -63,9 +56,8 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Axum](https://img.shields.io/badge/Axum-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Computer Vision & AI
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -93,7 +85,6 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![systemd](https://img.shields.io/badge/systemd-0B4523?style=for-the-badge&logo=linux&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
@@ -155,22 +146,14 @@ CTI Feeds (NVD / KEV / ThreatFox / oxmaint.es blogs)
 
 Public ingress: `https://plc.oxmaint.es` via Cloudflare Tunnel.
 
-### NVIDIA DGX Spark GB10 (Staging / Demo)
+### NVIDIA DGX Spark GB10 (Security AI / CV)
 
 | Service | Port | Role |
 |---|---|---|
-| **frontend_staging** | :3001 | Next.js staging portal |
-| **backend_staging** | :8081 | OXmaint Go backend (healthy) |
-| **synapse-rag** | :9000 | Synapse RAG FastAPI (Qwen 3.6 + LangGraph) |
-| **sap-sync-engine** | cron | SAP PM → ChromaDB sync (every 5 min) |
-| **sap_mock** | :3002 | SAP PM mock server for integration testing |
-| **n8n_service** | :5678 | Workflow automation (customer demos) |
-| **mongodb** | :27017 | App database |
-| **mysql_db / mysql_dbstg** | :3306 / :3307 | Rust backend + staging databases |
 | **ollama** | :11434 | 8 models (Qwen 3.6 35B, Gemma 4, Qwen 3-Coder, VL, Embedding) |
-| **cloudflared** | tunnel | 11 `*.oxmaint.es` hostnames — full public ingress |
+| **cloudflared** | tunnel | Public ingress for OXmaint staging/demo environments |
 
-Running on: **NVIDIA DGX Spark GB10** (Grace-Blackwell, aarch64), CUDA 13.0, InfiniBand fabric, NVIDIA Driver 580.
+Running on: **NVIDIA DGX Spark GB10** (Grace-Blackwell, aarch64), CUDA 13.0, InfiniBand fabric, NVIDIA Driver 580. Home to WAZUHLLM and BlueScope video analysis workloads.
 
 ---
 
@@ -230,7 +213,6 @@ Running on: **NVIDIA DGX Spark GB10** (Grace-Blackwell, aarch64), CUDA 13.0, Inf
 - **Secure inference pipelines** — running CV models without exposing sensitive factory floor data
 - **Multi-Spark clustering** — InfiniBand/MPI orchestration across DGX Spark fleet for distributed LLM inference
 - **NVIDIA DeepStream 9.0** — multi-stream video analytics with 3D pose tracking and anomaly detection
-- **Molecular dynamics** — OpenMM FEP for drug-discovery binding affinity prediction on NVIDIA GPU
 
 ---
 
