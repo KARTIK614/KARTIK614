@@ -112,7 +112,7 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 Fine-tuning LLMs on threat intelligence to build an AI-native SOC analyst.
 
 ```
-CTI Feeds (NVD / KEV / ThreatFox / oxmaint.es blogs)
+CTI Feeds (NVD / KEV / ThreatFox / blog sources)
         │
         ▼
    Ingestion Pipeline ──── ChromaDB RAG Vault
@@ -132,28 +132,17 @@ CTI Feeds (NVD / KEV / ThreatFox / oxmaint.es blogs)
 
 ---
 
-## Production Infrastructure
+## Impact
 
-### NVIDIA Jetson AGX Orin 64GB (Edge)
+**Edge AI Platform** — Architected and deployed a real-time computer vision platform on NVIDIA Jetson Orin running 12 YOLO models in production. Integrated PLCs (Allen-Bradley, Arduino Opta) and ROS2 robot simulation into a unified factory monitoring system serving multiple industrial customers, enabling defect detection at conveyor speeds with sub-second inference latency.
 
-| Service | Port | Role |
-|---|---|---|
-| **oxmaint-frontend** | :3000 | Next.js 15 dashboard (1.4 GB RAM) |
-| **oxmaint-plc** | :8001 | Allen-Bradley Micro820 polling via Modbus TCP |
-| **oxmaint-opta** | :8002 | Arduino Opta WiFi sensor integration |
-| **oxmaint-robot** | :8004 | Fanuc CR35-iA robot simulation + control |
-| **oxmaint-mlengine** | :8005 | YOLO11 real-time inference engine |
+**AI-Powered SOC Automation** — Built a fine-tuned security LLM pipeline (Qwen 3.6 35B + LangGraph + ChromaDB RAG) that ingests NVD, KEV, and ThreatFox threat intelligence to automate SIEM alert triage, reducing mean-time-to-respond for security incidents.
 
-Public ingress: `https://plc.oxmaint.es` via Cloudflare Tunnel.
+**Cross-Platform Deployment** — Production workloads span NVIDIA Jetson AGX Orin (edge) and DGX Spark GB10 (data center), with models optimized via TensorRT and served behind Cloudflare zero-trust tunnels. On-device LLM inference with Ollama/vLLM for factory-floor decision support without cloud dependency.
 
-### NVIDIA DGX Spark GB10 (Security AI / CV)
+**Multi-Tenant AI Surveillance** — Designed and deployed a CCTV AI system doing real-time hazard detection with automated work order creation and escalation pipelines, currently monitoring multiple industrial sites.
 
-| Service | Port | Role |
-|---|---|---|
-| **ollama** | :11434 | 8 models (Qwen 3.6 35B, Gemma 4, Qwen 3-Coder, VL, Embedding) |
-| **cloudflared** | tunnel | Public ingress for OXmaint staging/demo environments |
-
-Running on: **NVIDIA DGX Spark GB10** (Grace-Blackwell, aarch64), CUDA 13.0, InfiniBand fabric, NVIDIA Driver 580. Home to WAZUHLLM and BlueScope video analysis workloads.
+**Systems Automation** — Created a one-command Ubuntu workstation setup used by migrating engineers, and voice-to-text tooling that eliminates manual transcription for hands-free factory-floor documentation.
 
 ---
 
