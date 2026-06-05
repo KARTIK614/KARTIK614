@@ -177,7 +177,7 @@ CTI Feeds (NVD / KEV / ThreatFox / blog sources)
 
 ## Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=KARTIK614&theme=tokyonight&no-frame=false&margin-w=5&column=7" />
+[![trophy](https://github-profile-trophy.vercel.app/?username=KARTIK614&theme=tokyonight&no-frame=true&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -187,8 +187,12 @@ CTI Feeds (NVD / KEV / ThreatFox / blog sources)
 
 <div align="center">
 
-[![ubuntu-setup](https://github-readme-stats.vercel.app/api/pin/?username=KARTIK614&repo=ubuntu-setup&theme=tokyonight)](https://github.com/KARTIK614/ubuntu-setup)
-[![v2t-thingies](https://github-readme-stats.vercel.app/api/pin/?username=KARTIK614&repo=v2t-thingies&theme=tokyonight)](https://github.com/KARTIK614/v2t-thingies)
+<a href="https://github.com/KARTIK614/ubuntu-setup">
+  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=KARTIK614&repo=ubuntu-setup&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://github.com/KARTIK614/v2t-thingies">
+  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=KARTIK614&repo=v2t-thingies&theme=tokyonight&hide_border=true" />
+</a>
 
 </div>
 
