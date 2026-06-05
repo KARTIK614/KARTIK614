@@ -173,26 +173,15 @@ CTI Feeds (NVD / KEV / ThreatFox / blog sources)
 
 ---
 
-<div align="center">
-
-## Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=KARTIK614&theme=tokyonight&no-frame=true&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
 ---
 
 ## Featured Repos
 
 <div align="center">
 
-<a href="https://github.com/KARTIK614/ubuntu-setup">
-  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=KARTIK614&repo=ubuntu-setup&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/KARTIK614/v2t-thingies">
-  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=KARTIK614&repo=v2t-thingies&theme=tokyonight&hide_border=true" />
-</a>
+[**ubuntu-setup**](https://github.com/KARTIK614/ubuntu-setup) — One-command Ubuntu workstation setup with Windows-style gestures, voice-to-text, and modular system automation
+
+[**v2t-thingies**](https://github.com/KARTIK614/v2t-thingies) — System-wide voice-to-text bridge using Puppeteer + Web Speech API with systemd integration
 
 </div>
 
