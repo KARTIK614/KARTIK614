@@ -1,44 +1,49 @@
-# Kartik Pareek — Security × Vision × Edge AI
+# Kartik Pareek — Edge AI · Industrial Vision · Security Operations
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4200&color=00E5FF&center=true&vCenter=true&width=800&lines=Industrial+AI+%7C+Edge+Computing+%7C+NVIDIA+Jetson+Orin+%7C+DGX+Spark;Full-Stack+%7C+Next.js+%7C+FastAPI+%7C+Python;Computer+Vision+%7C+YOLO11+%7C+TensorRT+%7C+ONNX;Cybersecurity+%7C+SIEM+%7C+LLM+Fine-Tuning+%7C+CTI+Pipelines;Building+Secure%2C+Intelligent+Factories+End-to-End" />
+<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4200&color=00E5FF&center=true&vCenter=true&width=800&lines=Edge+AI+on+NVIDIA+Jetson+Orin;Industrial+Computer+Vision+%7C+YOLO+%7C+TensorRT;Security+Operations+%7C+SIEM+%2F+EDR+%E2%86%92+Tickets;Rust+%7C+TypeScript+%7C+Python" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## Who I Am
+## About
 
-I build at the intersection of **edge AI**, **industrial computer vision**, **cybersecurity**, and **full-stack systems**. Currently deploying production-grade AI on NVIDIA Jetson AGX Orin and DGX Spark — from factory-floor defect detection and PLC-integrated automation to security LLMs fine-tuned on threat intelligence. I also harden mobile apps and build encrypted communication tools.
+Computer Science engineer (B.Tech CSE, Government Engineering College Ajmer, 2022–2026). I build where **industrial edge AI** meets **security operations**: computer-vision and PLC-integrated systems on NVIDIA Jetson Orin, and the plumbing that turns security alerts into tickets an analyst can act on. I read the standard or the vendor docs first, build a mental model of what's being defended, then implement — small, reversible changes, documented as I go.
 
-- **OXmaint Edge Portal** — Production industrial AI on Jetson Orin: 12 YOLO models, PLC (Allen-Bradley, Arduino Opta), ROS2 robot simulation
-- **WAZUHLLM** — Fine-tuned security LLM with Wazuh SIEM + CTI pipeline (NVD/KEV/ThreatFox) + RAG vault for SOC automation
-- **Industrial CV models** on NVIDIA TensorRT — conveyor defects, spill, dust, PPE, galvanizing, thermal fault detection
-- **Multi-tenant CCTV AI** — Real-time surveillance with automated work order creation and escalation pipelines
-- **Encrypted messaging PWA** with QR-based E2E key exchange and WebRTC calling
-- **Voice-to-text automation** for hands-free computing on Linux
-- **One-command Ubuntu workstation setup** — trackpad gestures, systemd services, the works
+## Now
+
+- **JRS Innovation · OXmaint** — Cybersecurity & Edge-AI Engineering (Jan 2026 – present). Production computer vision on Jetson AGX Orin, PLC integration (Allen-Bradley Micro820, Arduino Opta), Wazuh SIEM with ATT&CK-mapped rules, IT/OT segmentation along the Purdue model.
+- **Security operations for a managed security provider** (2026 – present). Routing SentinelOne, Check Point email-security and Huntress alerts into HaloPSA tickets; Tier-1 triage research where the analyst's verdict always stays final.
+
+## Experience
+
+| When | Role | Where |
+|---|---|---|
+| Jan 2026 – present | Cybersecurity & Edge-AI Engineering Intern | JRS Innovation (OXmaint), Jaipur |
+| 2026 – present | Security operations (alert routing, triage research) | Managed security provider (remote) |
+| Jun – Jul 2025 | Software Development Intern | MNIT Jaipur |
+| Jun – Aug 2024 | Security Testing Intern (VAPT) | CDAC Noida |
 
 ---
 
-## What I'm Building
+## What I've Built
 
-| Project | Domain | Stack | What It Does |
-|---|---|---|---|
-| **OXmaint Edge Portal** | Industrial AI / Edge | Next.js 15, FastAPI, YOLO11, Jetson Orin, PLC | Production AI — 5 microservices, 12 CV models, real-time factory monitoring |
-| **OXmaint AI Portal** | Full-Stack / AI | Next.js 15, React 19, ShadCN, Azure Blob | Multi-tenant maintenance portal with Synapse RAG agent, n8n workflows |
-| **WAZUHLLM** | Security / AI | Python, Wazuh, Ollama, Qwen, LangGraph, ChromaDB | SIEM + fine-tuned LLM for SOC automation — CTI pipeline ingesting NVD/KEV/ThreatFox into RAG |
-| **Industrial Vision Suite** | CV / Edge AI | YOLO11x, TensorRT, ONNX, CUDA 12.6 | 12+ model variants — dust, spill, conveyor, galvanizing, thermal fault, intrusion, PPE |
-| **OXmaint CCTV Surveillance** | Multi-Tenant AI | Next.js 15, Clerk, Azure Blob, TensorRT | AI-powered CCTV with hazard detection, automated work orders, escalation |
-| **Thermal Fault Detection** | CV / Industrial | YOLOv8m, Roboflow, PyTorch | Electrical thermal anomaly detection & classification with custom inference engine |
-| **BlueScope Video Analysis** | CV / Edge AI | ffmpeg, Ollama, Gemma 4, DGX Spark | Frame-by-frame industrial video captioning → temporal fusion → Markdown safety reports |
-| **SECONDBRAIN** | AI Agents / RAG | Python, ChromaDB, Mem0, Obsidian, Claude MCP | Multi-agent dev workflow — capture, research, synthesis, review agents |
-| **V2T Tools** | Full-Stack / Voice | Next.js 16, MongoDB, WebRTC, Web Speech API | Voice dictation, AI search, markdown paste, P2P file transfer |
-| **E2E Encrypted Chat** | Security / PWA | React 19, TypeScript, IndexedDB, Web Crypto | QR-key-exchange encrypted messaging + calling, offline-first |
-| **ROS2 Robot Simulation** | Robotics | ROS2 Humble, MoveIt2, Isaac Sim, Fanuc CR35-iA | Multi-robot simulation (Fanuc, ABB, UR, Kuka) with custom motion planning |
-| **ubuntu-setup** | DevOps / Linux | Bash, systemd, TouchEgg, Docker | One-command fresh Ubuntu → full workstation with Windows-style gestures |
-| **Mobile Security Lab** | Pentesting | MobSF, ADB, firmware extraction, static/dynamic analysis | Android app reverse engineering, rooting guides, security audits |
+| Project | What it does | Stack |
+|---|---|---|
+| **OXmaint Edge Portal** | Industrial AI on Jetson AGX Orin: CV models, PLC services (Allen-Bradley, Arduino Opta), robot-cell simulation, live telemetry | Next.js, FastAPI, YOLO11, TensorRT, ROS2, Grafana, InfluxDB |
+| **Industrial vision models** | Conveyor defects, spills, dust, PPE, galvanizing, thermal faults — exported to TensorRT/ONNX for the edge | YOLO11 / YOLOv8, PyTorch, TensorRT, ONNX |
+| **Multi-tenant CCTV AI** | Hazard detection on camera feeds that opens maintenance work orders and escalates | Next.js, TensorRT, Azure Blob |
+| **Industrial video → safety reports** | Frame-by-frame captioning with a local vision-language model, temporal fusion, Markdown reports | ffmpeg, Ollama (Gemma), DGX Spark |
+| **RTSP recording pipelines** | Reliable long-running capture from unstable industrial camera feeds | ffmpeg segmenting, Python, systemd |
+| **Exam-prep platform** *(private)* | Full-paper exam mode (MCQ/MSQ/NAT, negative marking), AI tutor with LaTeX solutions, attempt analytics, mistakes → Anki | Rust (axum), libSQL/Turso, React 19 + Vite, KaTeX, Render + Vercel |
+| **Agentic SOC triage** *(in progress)* | Wazuh alerts + ATT&CK knowledge in vector and graph retrieval, grounding a local LLM that proposes triage steps | Python, Wazuh, Ollama, LangGraph, ChromaDB, Neo4j |
+| **D2C commerce platform** *(freelance, private)* | Storefront and admin for a textile seller | TypeScript (Express + Drizzle), React, Turso, Vercel + Render |
+| **Offline voice tools** | GPU speech-to-text dictation (streaming transducer) and offline text-to-speech narration | sherpa-onnx, Kokoro, systemd |
+| **E2E encrypted chat** | QR-code key exchange, encrypted messaging and WebRTC calling, offline-first | React 19, TypeScript, Web Crypto, IndexedDB |
+| **ROS2 robot simulation** | Multi-robot cells (Fanuc, ABB, UR, Kuka) with motion planning | ROS2 Humble, MoveIt2, Isaac Sim |
+| **Mobile security lab** | Android app reverse engineering and security audits | MobSF, ADB, static/dynamic analysis |
 
 ---
 
@@ -50,6 +55,7 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Full-Stack & Backend
@@ -58,6 +64,9 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Axum](https://img.shields.io/badge/Axum-B7410E?style=for-the-badge&logo=rust&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Turso](https://img.shields.io/badge/Turso_libSQL-4FF8D2?style=for-the-badge&logo=sqlite&logoColor=black)
 
 ### Computer Vision & AI
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -104,47 +113,11 @@ I build at the intersection of **edge AI**, **industrial computer vision**, **cy
 ![Web Crypto](https://img.shields.io/badge/Web_Crypto_API-8A2BE2?style=for-the-badge&logo=letsencrypt&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![ADB](https://img.shields.io/badge/ADB-3DDC84?style=for-the-badge&logo=android&logoColor=black)
+![SentinelOne](https://img.shields.io/badge/SentinelOne_EDR-6B2BD9?style=for-the-badge&logoColor=white)
+![HaloPSA](https://img.shields.io/badge/HaloPSA-1F6FEB?style=for-the-badge&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
 
----
 
-## WAZUHLLM — Security LLM for SOC Automation
-
-Fine-tuning LLMs on threat intelligence to build an AI-native SOC analyst.
-
-```
-CTI Feeds (NVD / KEV / ThreatFox / blog sources)
-        │
-        ▼
-   Ingestion Pipeline ──── ChromaDB RAG Vault
-        │                        │
-        ▼                        ▼
-  Qwen 3.6 35B + LangGraph ──► Structured Threat Reports
-        │
-        ▼
-  Wazuh SIEM Integration ──► Automated Alert Triage
-```
-
-- **LLM:** Qwen 3.6 35B via Ollama, fine-tuned with unsloth on threat corpus
-- **RAG:** LangGraph agent with ChromaDB-backed retrieval over NVD CVEs, KEV catalog, ThreatFox IOCs
-- **SIEM integration:** Wazuh alert enrichment — LLM triages alerts, suggests response actions, generates hunt hypotheses
-- **Knowledge base:** Khoj + SilverBullet for SOC playbook management and retrieval
-- **Architecture:** `security-llm-architecture.md` — full system design documented
-
----
-
-## Impact
-
-**Edge AI Platform** — Architected and deployed a real-time computer vision platform on NVIDIA Jetson Orin running 12 YOLO models in production. Integrated PLCs (Allen-Bradley, Arduino Opta) and ROS2 robot simulation into a unified factory monitoring system serving multiple industrial customers, enabling defect detection at conveyor speeds with sub-second inference latency.
-
-**AI-Powered SOC Automation** — Built a fine-tuned security LLM pipeline (Qwen 3.6 35B + LangGraph + ChromaDB RAG) that ingests NVD, KEV, and ThreatFox threat intelligence to automate SIEM alert triage, reducing mean-time-to-respond for security incidents.
-
-**Cross-Platform Deployment** — Production workloads span NVIDIA Jetson AGX Orin (edge) and DGX Spark GB10 (data center), with models optimized via TensorRT and served behind Cloudflare zero-trust tunnels. On-device LLM inference with Ollama/vLLM for factory-floor decision support without cloud dependency.
-
-**Multi-Tenant AI Surveillance** — Designed and deployed a CCTV AI system doing real-time hazard detection with automated work order creation and escalation pipelines, currently monitoring multiple industrial sites.
-
-**Systems Automation** — Created a one-command Ubuntu workstation setup used by migrating engineers, and voice-to-text tooling that eliminates manual transcription for hands-free factory-floor documentation.
-
----
 
 <div align="center">
 
@@ -175,26 +148,29 @@ CTI Feeds (NVD / KEV / ThreatFox / blog sources)
 
 ---
 
+## Recognition
+
+- Finalist — **NFSU National Hackathon 2025** · Finalist — **IIIT Delhi Hackathon 2024**
+- Tech Lead, Cybersecurity Club, GEC Ajmer — ran internal CTFs and OWASP workshops
+- Certifications: Google Cloud Certified · CDAC Security Testing Programme · Master Defender Trainer (CDAC) · EC-Council CSA
+- TryHackMe: web, Active Directory, privilege-escalation and blue-team paths
+
 ## Featured Repos
 
 <div align="center">
 
-[**ubuntu-setup**](https://github.com/KARTIK614/ubuntu-setup) — One-command Ubuntu workstation setup with Windows-style gestures, voice-to-text, and modular system automation
+[**ubuntu-setup**](https://github.com/KARTIK614/ubuntu-setup) — one-command Ubuntu workstation setup: gestures, systemd services, the works
 
-[**v2t-thingies**](https://github.com/KARTIK614/v2t-thingies) — System-wide voice-to-text bridge using Puppeteer + Web Speech API with systemd integration
+[**v2t-thingies**](https://github.com/KARTIK614/v2t-thingies) — system-wide voice-to-text and keyboard tooling for Linux
 
 </div>
 
----
+## Currently Learning
 
-## Currently Exploring
-
-- **Security LLM fine-tuning** — unsloth + Qwen on CTI feeds for automated SOC triage and hunt hypothesis generation
-- **Adversarial robustness** in industrial CV models — can a sticker on a conveyor belt fool a defect detector?
-- **On-device LLM inference** (vLLM, Qwen, Gemma 4) for real-time factory safety decision support across Orin + DGX Spark
-- **Secure inference pipelines** — running CV models without exposing sensitive factory floor data
-- **Multi-Spark clustering** — InfiniBand/MPI orchestration across DGX Spark fleet for distributed LLM inference
-- **NVIDIA DeepStream 9.0** — multi-stream video analytics with 3D pose tracking and anomaly detection
+- **Mathematics, question-first** — rebuilding probability, linear algebra and calculus
+- **KQL and SPL** — Microsoft Sentinel and Splunk queries for detection work
+- **Where LLMs help in SOC triage, and where they don't** — measured against analyst verdicts
+- **Adversarial robustness of industrial CV** — can a sticker on a conveyor belt fool a defect detector?
 
 ---
 
